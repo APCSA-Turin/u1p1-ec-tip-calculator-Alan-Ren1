@@ -61,7 +61,7 @@ public class ExtraCredit {
         // Collect menu items until the user enters "-1"
         System.out.println("Enter menu items one by one (enter '-1' to finish):");
         while (true) {
-            System.out.print("Enter an item: ");
+            System.out.print("Enter an item name or type '-1' to finish: ");
             String item = scanner.nextLine();
 
             if (item.equals("-1")) {
